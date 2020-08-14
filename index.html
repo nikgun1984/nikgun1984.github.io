@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <title>Projects</title>
 </head>
+
 <body>
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-primary mb-5 pb-4">
-        <a href="#" class="navbar-brand" style="font-size: 30px;font-weight: bolder;">MY PROJECTS</a>
-        <button class="navbar-toggler"data-toggle="collapse" data-target="navbarToggle"></button>
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-primary mb-5 pb-3">
+        <a href="#" class="navbar-brand text-light" style="font-size: 30px;font-weight: bolder;">MY PROJECTS <i class="fas fa-tablet-alt text-light"></i></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="navbarToggle"></button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarToggle">
             <div class="navbar-nav pr-4" style="font-size: 25px;">
-                <a href="#" class="nav-item nav-link active">HOME PAGE</a>
-                <a href="#" class="nav-item nav-link">CONTACT</a>
-                <a href="#" class="nav-item nav-link">ABOUT ME</a>
-                <a href="#" class="nav-item nav-link"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="nav-item nav-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="nav-item nav-link active text-white">PROJECT PAGE</a>
+                <!-- <a href="#" class="nav-item nav-link">CONTACT</a>
+                <a href="#" class="nav-item nav-link">ABOUT ME</a> -->
+                <a href="https://www.linkedin.com/in/nick-gundobin-5b905931/" class="nav-item nav-link" id="linkedin"><i class="fab fa-linkedin text-light"></i></a>
+                <a href="http://github.com/nikgun1984" class="nav-item nav-link" id="github"><i class="fab fa-github text-light"></i></a>
 
             </div>
         </div>
@@ -26,23 +29,23 @@
     <div class="container-fluid mt-5 pt-5">
         <div class="row">
             <div class="col-3">
-                <div class="card" >
-                    <img class="card-img-top" src="me.png" alt="Card image cap">
+                <div class="card">
+                    <img class="card-img-top" src="images/me.png" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title text-center">Nick Gundobin</h5>
-                      <p class="card-text text-center">
-                        I am a committed, detailed-oriented Software Developer 
-                        specializing in Front End Development using various 
-                        programming languages and technologies. I have an in-depth
-                         knowledge of JS, ES6, Python, Java and their data structures,
-                          CSS, HTML, frameworks like Flask, React. I am driven by curiosity,
-                           problem solving and new technologies. 
-                      </p>
-                      <div class="row justify-content-center">
-                        <a href="#" class="btn btn-primary">My LinkedIn <i class="fab fa-linkedin"></i></a>
-                      </div>
+                        <h5 class="card-title text-center">Nick Gundobin</h5>
+                        <p class="card-text text-center">
+                            I am a committed, detailed-oriented Software Developer
+                            specializing in Front End Development using various
+                            programming languages and technologies. I have an in-depth
+                            knowledge of JS, ES6, Python, Java and their data structures,
+                            CSS, HTML, frameworks like Flask, React. I am driven by curiosity,
+                            problem solving and new technologies.
+                        </p>
+                        <div class="row justify-content-center">
+                            <a href="https://www.linkedin.com/in/nick-gundobin-5b905931/" class="btn btn-primary">My LinkedIn <i class="fab fa-linkedin"></i></a>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
             <div class="col-9">
                 <div class="jumbotron">
@@ -51,19 +54,139 @@
                     <hr class="my-4">
                     <p>I will continue to add my projects to the list and also update them. Give me any feedback...</p>
                     <p class="lead">
-                      <a class="btn btn-primary btn-lg btn-block" href="https://nikgun1984.github.io/Todo-List-App-with-localStorage/" role="button">Todo-List-App-with-localStorage</a>
-                      <a class="btn btn-primary btn-lg btn-block" href="https://nikgun1984.github.io/Meme-Generator/" role="button">Meme-Generator</a>
-                      <a class="btn btn-primary btn-lg btn-block" href="https://nikgun1984.github.io/Card-Memory-Game/" role="button">Card-Memory-Game</a>
-                      <a class="btn btn-primary btn-lg btn-block" href="https://nikgun1984.github.io/Connect-Four-Game/" role="button">Connect-Four-Game</a>
-                      <a class="btn btn-primary btn-lg btn-block" href="https://nikgun1984.github.io/Movie-App-with-jQuery/" role="button">Movie-App-with-jQuery</a>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card">
+                                    <img class="card-img-top border-bottom" src="images/todo.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Todo-List-App-with-localStorage</h5>
+                                        <p class="card-text text-center">
+                                            Todo app is a simple application to enter daily tasks and if they are done
+                                            they can be removed or modified.
+                                            With todo app you can add a new todo, mark todo as completed and also remove
+                                            it from the list. When the page refreshes,
+                                            the todos on the page remain there.
+                                        </p>
+                                        <div class="row justify-content-center">
+                                            <a class="btn btn-primary btn-lg btn-block"
+                                                href="https://nikgun1984.github.io/Todo-List-App-with-localStorage/"
+                                                role="button">Check it Out Here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img class="card-img-top border-bottom" src="images/meme.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Meme-Generator</h5>
+                                        <p class="card-text text-center">
+                                            Meme Generator is an image maker to add custom resizable text to images. You
+                                            can add image link
+                                            by copying image adress and paste it to the submit form. Then fill the rest
+                                            of the form by adding
+                                            top and bottom captions. Have fun!!!
+                                        </p>
+                                        <div class="row justify-content-center">
+                                            <a class="btn btn-primary btn-lg btn-block"
+                                                href="https://nikgun1984.github.io/Meme-Generator/" role="button">Check
+                                                it Out Here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card">
+                                    <img class="card-img-top border-bottom" src="images/memory-game.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Card-Memory-Game</h5>
+                                        <p class="card-text text-center">
+                                            Card Memory Game is a card game in which cards are laid face down on a table
+                                            and two cards are flipped face up on each turn. The object of the game is to
+                                            turn over pairs of matching cards. The game is also known as Memory or
+                                            Pairs.
 
+                                            - Added a button that when clicked will start the game
+                                            - Added a button that when clicked will restart the game once it has ended
+                                            - For every guess made, incremented a score variable and displayed the score
+                                            while the game is played
+                                            - Stored the lowest-scoring game in local storage, so that players can see a
+                                            record of the best game played.
+                                            - Allowed for any number of cards to appear
+                                            - Only 6 cards were added. Can be duplicates if you choose more than 12 cards
+                                        </p>
+                                        <div class="row justify-content-center">
+                                            <a class="btn btn-primary btn-lg btn-block"
+                                                href="https://nikgun1984.github.io/Card-Memory-Game/"
+                                                role="button">Check
+                                                it Out Here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img class="card-img-top border-bottom" src="images/connect-four.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Connect-Four-Game</h5>
+                                            <p class="card-text text-center">
+                                                Connect Four is a two-player connection board game, in which the players choose 
+                                                a color and then take turns dropping colored discs into a seven-column, six-row 
+                                                vertically suspended grid. The pieces fall straight down, occupying the lowest 
+                                                available space within the column. The objective of the game is to be the first 
+                                                to form a horizontal, vertical, or diagonal line of four of one's own discs.
+                                            </p>
+                                            <div class="row justify-content-center">
+                                                <a class="btn btn-primary btn-lg btn-block"
+                                                    href="https://nikgun1984.github.io/Connect-Four-Game/"
+                                                    role="button">Check
+                                                    it Out Here</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img class="card-img-top border-bottom" src="images/movie.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Movie-App</h5>
+                                            <p class="card-text text-center">
+                                                A little fun movie app to add favorite movies to your database with 
+                                                title and ratings. You are able to add, remove, update, sort movies
+                                                by titles and ratings.
+                                            </p>
+                                            <div class="row justify-content-center">
+                                                <a class="btn btn-primary btn-lg btn-block"
+                                                    href="https://nikgun1984.github.io/Movie-App-with-jQuery/"
+                                                    role="button">Check
+                                                    it Out Here</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </p>
-                  </div>
+                </div>
             </div>
         </div>
+        <div class="row justify-content-center">
+            <blockquote class="blockquote text-right justify-content-center" style="font-weight:bold;">
+                <p class="mb-0">If there is no struggle, there is no progress.</p>
+                <footer class="blockquote-footer">Frederick Douglass <cite title="Source Title">awakenthegreatnesswithin.com</cite></footer>
+            </blockquote>
+        </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
